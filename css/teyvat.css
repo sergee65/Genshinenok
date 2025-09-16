@@ -1,0 +1,107 @@
+html{
+	overflow-x: hidden;
+	margin-right: calc(-1*(100vw-100%));
+}
+
+body{
+	margin:0px;
+	font-family:comic sans ms;
+	color:white;
+	background:linear-gradient(to left, #003347, #421e25);
+}
+h1{
+	margin-left:45%;
+}
+.menu{
+	width:40%;
+	height:100px;
+	margin:auto;
+}
+.button{
+	width:17%;
+	height:auto;
+	color:white;
+	margin:15px;
+	padding:10px;
+	float:left;
+	cursor:pointer;
+	text-align:center;
+	border:3px solid white;
+	border-radius:15px;
+	transition:all 1.4s;
+}
+.button:hover{
+	background:white;
+	color:black;
+}
+.box{
+	width:50%;
+	height:220px;
+	margin:5px;
+	padding:20px;
+	float:left;
+}
+.text{
+	width:40%;
+	height:auto;
+}
+.box.t{
+	width:100%;
+	height:auto;
+}
+.box.q{
+	width:30%;
+	height:auto;
+	margin:5px;
+	padding:20px;
+	float:left;
+	border:3px solid white;
+	border-radius:15px;
+}
+.box.qq{
+	width:40%;
+	height:350px;
+	margin:5px;
+	padding:20px;
+	float:right;
+	border:3px solid white;
+	border-radius:15px;
+}
+.box.qq img{
+	width:100%;
+	height:100%;
+}
+.box.qqq{
+	width:10%;
+	height:150px;
+	margin:5px;
+	padding:20px;
+	float:auto;
+	border:3px solid white;
+	border-radius:15px;
+}
+.karta{
+	width:100%;
+	height:auto;
+}
+.karta.m{
+background:linear-gradient(to right, #008080, #421e25);
+}
+.karta.l{
+background:linear-gradient(to right, #DAA520, #421e25);
+}
+.karta.i{
+background:linear-gradient(to right, #800080, #421e25);
+}
+.karta.s{
+background:linear-gradient(to right, #008000, #421e25);
+}
+.karta.f{
+background:linear-gradient(to right, #1E90FF, #421e25);
+}
+.karta.n{
+background:linear-gradient(to right, #FF6347, #421e25);
+}
+.karta.z{
+background:linear-gradient(to right, #ADD8E6, #421e25);
+}

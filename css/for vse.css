@@ -1,0 +1,142 @@
+body{ 
+	font-family:comic sans ms;
+	line-height: 1.1;
+	text-shadow: 2px 1px 1px rgb(0, 0, 0);
+	padding:0px;
+	margin:auto;
+	background-size:100% 100%;
+	background-attachment:fixed;
+}
+#Mondshtat{
+	background-image:url("../img/FonMond.jpg");
+}
+#Liue{
+	background-image:url("../img/FonLiue.jpg");
+}
+#Inadzuma{
+	background-image:url("../img/FonInadzuma.jpg");
+}
+#Sumery{
+	background-image:url("../img/FonSumery.jpg");
+}
+#Fontein{
+	background-image:url("../img/FonFontein.jpg");
+}
+#Natlan{
+	background-image:url("../img/FonNatlan.jpg");
+}
+#Sony{
+	background-image:url("../img/Sony.jpg");
+}
+.menu{
+	width:10%;
+	height:100px;
+	margin:auto;
+}
+.button{
+	width:90px;
+	height:auto;
+	color:white;
+	margin:15px;
+	padding:10px;
+	float:left;
+	cursor:pointer;
+	text-align:center;
+	border:3px solid white;
+	border-radius:15px;
+	transition:all 1.4s;
+}
+.button:hover{
+	background:white;
+	color:black;
+}
+.box{
+    width:80%;
+    height:auto;
+    margin:auto;
+	border:3px solid rgba(255, 255, 255, 0.795);
+	border-radius:15px;
+	padding:10px;
+	text-align:center;
+}
+.box.gudro{
+	background: rgba(6, 33, 107, 0.432);
+	color:rgb(68, 180, 224);
+}
+.box.pyro{
+	background:rgba(138, 7, 7, 0.596);
+	color:rgb(255, 85, 85)
+}
+.box.electro{
+	background:rgba(98, 2, 136, 0.582);
+	color:rgb(208, 99, 241);
+}
+.box.anemo{
+	background:rgba(3, 150, 118, 0.582);
+	color:rgb(16, 255, 223);
+}
+.box.dendro{
+	background:rgba(31, 95, 6, 0.582);
+	color:rgb(15, 216, 42);
+}
+.box.geo{
+	background:rgba(238, 206, 25, 0.493);
+	color:rgb(255, 251, 0);
+}
+.box.cryo{
+	background:rgba(8, 141, 158, 0.548);
+	color:rgb(41, 255, 255);
+}
+.box.k{
+    width:40%;
+    height:auto;
+    margin:auto;
+	border:none;
+	border-radius:15px;
+}
+.box img{
+	width:100%;
+	height:auto;
+}
+.inf{
+	width:30%;
+	height:auto;
+	margin:10px;
+	padding:10px;
+	float:left;
+	margin-left:10%;
+	border-radius:15px;
+	border:3px solid rgba(255, 255, 255, 0.795);
+}
+.box.i{
+	width:55%;
+	height:200px;
+}
+#igudro{
+	background: rgba(6, 33, 107, 0.432);
+	color:rgb(68, 180, 224);
+}
+#ipyro{
+	background:rgba(138, 7, 7, 0.596);
+	color:rgb(255, 85, 85)
+}
+#ielectro{
+	background:rgba(98, 2, 136, 0.582);
+	color:rgb(208, 99, 241);
+}
+#ianemo{
+	background:rgba(3, 150, 118, 0.582);
+	color:rgb(16, 255, 223);
+}
+#idendro{
+	background:rgba(31, 95, 6, 0.582);
+	color:rgb(15, 216, 42);
+}
+#igeo{
+	background:rgba(238, 206, 25, 0.493);
+	color:rgb(255, 251, 0);
+}
+#icryo{
+	background:rgba(8, 141, 158, 0.548);
+	color:rgb(41, 255, 255);
+}

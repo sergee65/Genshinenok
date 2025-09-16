@@ -1,0 +1,75 @@
+body{
+	margin:0px;
+	font-family:comic sans ms;
+	color:rgb(255, 255, 255);
+	text-shadow: 1px 1px 5px rgb(0, 0, 0);
+	background-image:url("../img/travala.jpg");
+	background-size:100% 100%;
+	background-attachment:fixed;
+    color:rgb(228, 200, 168);
+}
+.menu{
+	width:40%;
+	height:150px;
+	margin:auto;
+}
+.button{
+	width:17%;
+	height:auto;
+	color:white;
+	margin:15px;
+	padding:10px;
+	float:left;
+	cursor:pointer;
+	text-align:center;
+	border:3px solid white;
+	border-radius:15px;
+	transition:all 1.4s;
+}
+.button:hover{
+	background:white;
+	color:black;
+}
+.box{
+    width:100%;
+    height:450px;
+    margin-top:1%;
+    margin:auto;
+}
+.yashek{
+    width:15%;
+    height:auto;
+    border:3px solid black;
+    border-radius:10px;
+    background:rgba(2, 236, 205, 0.377);
+    margin:auto;
+    margin-top:5%;
+    margin-left:13.5%;
+    float:left;
+    padding:0px;
+}
+.yashek img{
+	width:100%;
+	height:100%;
+}
+p{
+    text-align:center;
+    font-size:18px;
+}
+.text{
+    width:80%;
+    height:auto;
+    border:3px solid black;
+    border-radius:10px;
+    background:rgba(2, 236, 205, 0.24);
+    margin:auto;
+    margin-top:15%;
+    text-align:center;
+}
+h1{
+    color:rgb(87, 154, 255);
+}
+#paimon{
+    width:15%;
+    height:auto;
+}

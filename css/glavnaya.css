@@ -1,0 +1,48 @@
+body{
+	margin:0px;
+	font-family:comic sans ms;
+}
+.menu{
+	width:40%;
+	height:150px;
+	margin:auto;
+}
+.video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+}
+#myVideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    transform: translateX(-50%) translateY(-50%);
+}
+.button{
+	width:17%;
+	height:auto;
+	color:white;
+	margin:15px;
+	padding:10px;
+	float:left;
+	cursor:pointer;
+	text-align:center;
+	border:3px solid white;
+	border-radius:15px;
+	transition:all 1.4s;
+}
+.button:hover{
+	background:white;
+	color:black;
+}
