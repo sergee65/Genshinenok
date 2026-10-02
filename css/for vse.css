@@ -1,10 +1,14 @@
-body{ 
-	font-family:comic sans ms;
-	line-height: 1.1;
-	text-shadow: 2px 1px 1px rgb(0, 0, 0);
+*{
+	box-sizing:border-box;
+}
+body{
+	font-family:'Comic Sans MS','Comic Sans',cursive;
+	line-height:1.1;
+	text-shadow:2px 1px 1px rgb(0, 0, 0);
 	padding:0px;
-	margin:auto;
-	background-size:100% 100%;
+	margin:0px;
+	background-size:cover;
+	background-position:center;
 	background-attachment:fixed;
 }
 #Mondshtat{
@@ -25,21 +29,29 @@ body{
 #Natlan{
 	background-image:url("../img/FonNatlan.jpg");
 }
+#NodKrai{
+	background-image:url("../img/FonNodKrai.jpg");
+}
+#Snezhnaya{
+	background-image:url("../img/FonSnezhnaya.jpg");
+}
 #Sony{
 	background-image:url("../img/Sony.jpg");
 }
 .menu{
-	width:10%;
-	height:100px;
-	margin:auto;
+	width:95%;
+	height:auto;
+	margin:10px auto;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
 }
 .button{
-	width:90px;
-	height:auto;
+	width:auto;
+	min-width:90px;
 	color:white;
-	margin:15px;
-	padding:10px;
-	float:left;
+	margin:10px 15px;
+	padding:10px 20px;
 	cursor:pointer;
 	text-align:center;
 	border:3px solid white;
@@ -51,12 +63,12 @@ body{
 	color:black;
 }
 .box{
-    width:80%;
-    height:auto;
-    margin:auto;
+	width:90%;
+	height:auto;
+	margin:15px auto;
 	border:3px solid rgba(255, 255, 255, 0.795);
 	border-radius:15px;
-	padding:10px;
+	padding:10px 15px;
 	text-align:center;
 }
 .box.gudro{
@@ -88,29 +100,35 @@ body{
 	color:rgb(41, 255, 255);
 }
 .box.k{
-    width:40%;
-    height:auto;
-    margin:auto;
+	width:40%;
+	height:auto;
+	margin:15px auto;
 	border:none;
 	border-radius:15px;
 }
 .box img{
 	width:100%;
 	height:auto;
+	border-radius:10px;
 }
 .inf{
-	width:30%;
+	width:40%;
 	height:auto;
-	margin:10px;
+	margin:0;
 	padding:10px;
-	float:left;
-	margin-left:10%;
+	float:none;
 	border-radius:15px;
 	border:3px solid rgba(255, 255, 255, 0.795);
 }
 .box.i{
 	width:55%;
-	height:200px;
+	height:auto;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:stretch;
+	gap:10px;
+	padding:15px;
 }
 #igudro{
 	background: rgba(6, 33, 107, 0.432);
@@ -139,4 +157,16 @@ body{
 #icryo{
 	background:rgba(8, 141, 158, 0.548);
 	color:rgb(41, 255, 255);
+}
+@media screen and (max-width: 768px){
+	.menu{width:100%;}
+	.box{width:95%;}
+	.box.k{width:85%;}
+	.box.i{width:95%;}
+	.inf{width:46%;}
+}
+@media screen and (max-width: 480px){
+	.box{width:97%;}
+	.box.k{width:95%;}
+	.inf{width:100%;}
 }

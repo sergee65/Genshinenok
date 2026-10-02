@@ -1,11 +1,17 @@
+*{
+	box-sizing:border-box;
+}
 body{
 	margin:0px;
-	font-family:comic sans ms;
+	font-family:'Comic Sans MS','Comic Sans',cursive;
 }
 .menu{
-	width:40%;
-	height:150px;
-	margin:auto;
+	width:95%;
+	height:auto;
+	margin:10px auto;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
 }
 .video-background {
     position: fixed;
@@ -29,13 +35,24 @@ body{
     z-index: -1000;
     transform: translateX(-50%) translateY(-50%);
 }
+.imgg{
+	position:absolute;
+	top:1%;
+	left:0%;
+	width:15%;
+	z-index:10;
+}
+.imgg img{
+	width:100%;
+	height:auto;
+	display:block;
+}
 .button{
 	width:17%;
 	height:auto;
 	color:white;
 	margin:15px;
 	padding:10px;
-	float:left;
 	cursor:pointer;
 	text-align:center;
 	border:3px solid white;
@@ -45,4 +62,12 @@ body{
 .button:hover{
 	background:white;
 	color:black;
+}
+@media screen and (max-width: 768px){
+	.menu{width:100%;}
+	.button{width:40%;margin:10px;}
+	.imgg{width:25%;}
+}
+@media screen and (max-width: 480px){
+	.button{width:70%;}
 }
